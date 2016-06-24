@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:id="@+id/llayout"
+    
+    android:background="#292421"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:layout_marginTop="10px"
+        android:layout_weight="0.44"
+        android:horizontalSpacing="3px"
+        android:numColumns="4"
+        android:verticalSpacing="0px" >
+    </GridView>
+
+    <!-- 添加一个图像切换器 -->
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher1"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_weight="0.17"
+        android:layout_marginTop="0dp"
+        android:padding="0dp" >
+
+    </ImageSwitcher>
+
+</LinearLayout>

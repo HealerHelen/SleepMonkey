@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:background="@drawable/background1">
+    <TextView
+        android:id="@+id/titleforlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#309966cc"
+        android:textSize="24dp"
+        android:text="       近七天每日睡眠情况一览"
+        android:textColor="#FFFFFF" />
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        
+        android:layout_marginTop="60dp"
+        android:dividerHeight="10dp"
+        >
+    </ListView>
+
+</LinearLayout>

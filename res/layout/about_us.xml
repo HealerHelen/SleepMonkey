@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        
+    android:background="@drawable/background1"
+    android:orientation="vertical" >
+    
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="关于睡眠猴子"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="睡眠猴子 Beta 0.9"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="——————— 产品介绍 ———————"
+            android:textColor="#2F2F4F"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      作为一款旨在让广大程序猿在高强度的工作之后能有一个良好睡眠的催眠软件，也可以同样服务其他朋友。我们能够让您安睡，分析您的睡眠，注重身体健康，精力充沛！"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="—————— 睡眠质量分析 ——————"
+            android:textColor="#2F2F4F"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="     记录并分析您睡眠的时间长短，并作出统计，有针对性的为您提供合理的睡眠方案和生活小贴士。"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="————— 催眠音乐图片 —————"
+            android:textColor="#2F2F4F"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      经团队成员亲测以及诸多志愿者的协助，睡眠音乐多来源自然，感受到回归自然和怀抱自然的睡眠环境，并模仿自然的睡眠环境让您产生困意。而催眠图片的选择也是参考了数位催眠师的研究成果，使您沉浸在自我想象中产生困意。"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="——————— 致    谢 ———————"
+            android:textColor="#2F2F4F"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      蟹蟹产品开发中为猴子们提供宝贵意见的童鞋们;-)\n      握握为催眠音乐和图片实验效果作测试的室友们;-)\n      最后，抱抱每天追求良好用户体验的程序猿猴子们，辛苦啦~~o(￣ε￣*)"
+            android:textColor="#ffffff"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copyright@2016 ThreeMonkey三只猴子"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:background="@drawable/background1"
+    android:gravity="right"
+    android:orientation="vertical" >
+    
+
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="联系猴子们"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginTop="40dp" >
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="你有功能不懂的？"
+         android:textColor="#ffffff"
+         android:textSize="25sp" />
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="right"
+         android:text="你有话要跟猴子们说？"
+         android:textColor="#ffffff"
+         android:textSize="25sp" />
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:layout_marginTop="30dp"
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="地址：石家庄铁道大学  信息学院"
+         android:textColor="#ffffff"
+         android:textSize="20sp"  />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="[官方]QQ群：465919873"
+         android:textColor="#ffffff"
+         android:textSize="20sp"   />
+
+     <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="新浪微博：ThreeMonkey三只猴子"
+         android:textColor="#ffffff"
+         android:textSize="20sp"  />
+
+     <TextView
+         android:id="@+id/textView7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="程序猿的博客：http://www.cnblogs.com/threemonkey/"
+         android:textColor="#ffffff"
+         android:textSize="20sp"  />
+
+ </LinearLayout>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="right"
+     android:layout_marginTop="30dp"
+     android:orientation="vertical" >
+
+     <TextView
+         android:id="@+id/textView8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="欢迎来戳！！(￣︶￣)"
+         android:textColor="#ffffff"
+         android:textSize="20sp"  />
+
+ </LinearLayout>
+    
+</LinearLayout>
